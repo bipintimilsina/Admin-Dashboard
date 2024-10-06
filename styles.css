@@ -1,0 +1,29 @@
+body{
+
+
+}
+
+
+.wrapper{
+
+
+display: grid;
+
+grid-template-columns: 30% 70%;
+grid-template-rows: 100% 100%;
+
+column-gap: 20px;
+}
+
+.wrapper .main,.sidebar{
+}
+
+
+
+.admin-header{
+  padding: 20px;
+}
+
+.sidebar-options{
+  padding: 5px 20px ;
+}
