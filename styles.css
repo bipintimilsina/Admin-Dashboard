@@ -457,6 +457,10 @@ gap: 1.5rem;
   max-height: 3.5rem;
   padding: 1.15rem 1.75rem;
 }
+.card-header~div:last-of-type{
+  border-bottom: 0;
+
+}
 
 .card-title > h2{
 
@@ -491,10 +495,11 @@ transition: transform 0.25s ease-in-out
 
 .lg-card{
   border: 1.65px solid #dfe0eb;
+  /* border-bottom: 0; */
   border-radius: 0.5rem;
   font-weight: bold;
   padding-bottom: 0.3rem;
-  
+  height: fit-content;
 }
 
 
@@ -511,3 +516,30 @@ transition: transform 0.25s ease-in-out
 }
 
 
+.checkbox-container{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+
+
+
+
+
+  .badge {
+    /* right: 1.5rem; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* color: #9fa2b4; */
+    padding:0.88rem 0.9rem;
+    font-size: 0.6875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* user-select: none; */
+
+    display: flex;
+    align-items: center;
+
+
+}
